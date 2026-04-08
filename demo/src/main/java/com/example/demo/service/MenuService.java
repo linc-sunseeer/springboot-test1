@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired; //導入 Autowire
 import org.springframework.stereotype.Service; //導入 Service
 
 import java.util.List; //導入 List
+import lombok.NonNull; //導入 Lombok 的 NonNull 注解
 
 @Service //標註這是一個 Service 類別，讓 Spring 知道要管理它
 public class MenuService {
@@ -21,7 +22,7 @@ public class MenuService {
 
 
     //新增菜單
-    public Menu createMenu(Menu menu){  //建立新菜單的方法，參數是一個 Menu 物件
+    public Menu createMenu(@NonNull Menu menu){  //建立新菜單的方法，參數是一個 Menu 物件
         return menuRepository.save(menu); //使用 JpaRepository 提供的 save 方法來保存菜單到資料庫
     }
     
