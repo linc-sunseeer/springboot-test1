@@ -4,6 +4,7 @@ import com.example.demo.entity.User; //把自己定義的user導入
 import com.example.demo.repository.UserRepository; //把自己定義的repository導入
 import org.springframework.stereotype.Service; //導入 Service
 
+import java.util.Optional; //導入 Optional
 import java.util.List;
 
 
@@ -35,12 +36,11 @@ public class UserService {
     }
 
     //登入
-    public User login(String email, String password){  //登入方法，參數是 email 和 password
-        User user = userRepository.findByEmail(email);
+    public User login(String email, String password){
 
-        if (user == null) {
-            throw new IllegalArgumentException("メールまたはパスワードが正しくありません");
-        }
+        Optional<User> optionalUser = userRepository.findByEmail(email);
+        User user = optionalUser
+            .orElseThrow(() -> new IllegalArgumentException("ユーザーが存在しません"));
 
         if (!user.getPassword().equals(password)) {
             throw new IllegalArgumentException("パスワードが正しくありません");
@@ -48,4 +48,7 @@ public class UserService {
 
         return user;
     }
+
+    //刪除使用者
+
 }

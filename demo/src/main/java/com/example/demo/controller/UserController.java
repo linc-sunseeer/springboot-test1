@@ -24,19 +24,19 @@ public class UserController {
     
     //新增用戶
     @PostMapping //處理 POST 請求，對應 /users 路徑
-    public String createUser(@RequestBody User user){  //建立新用戶的方法，參數是一個從請求體中獲取的 User 物件
-        return "ユーザーを作成しました"; //這裡暫時返回一個字符串，實際上應該調用 UserService 來保存新用戶到資料庫
+    public User createUser(@RequestBody User user){  //建立新用戶的方法，參數是一個從請求體中獲取的 User 物件
+        return userService.createUser(user); //調用 UserService 來保存新用戶到資料庫
     }
 
     //刪除用戶
-    @DeleteMapping("/{id}") //處理 DELETE 請求，對應 /users/{id} 路徑，{id} 是一個路徑變量
-    public String deleteUser(@PathVariable Long id){  //刪除用戶的方法，參數是從路徑中獲取的用戶 ID
-        return "ユーザーを削除しました"; //這裡暫時返回一個字符串，實際上應該調用 UserService 來刪除指定 ID 的用戶
-    }
+    // @DeleteMapping("/{id}") //處理 DELETE 請求，對應 /users/{id} 路徑，{id} 是一個路徑變量
+    // public User deleteUser(@PathVariable Long id){  //刪除用戶的方法，參數是從路徑中獲取的用戶 ID
+    //     return userService.deleteUser(id); //調用 UserService 來刪除指定 ID 的用戶
+    // }
 
     //登入
     @PostMapping("/login")
-    public String login(@RequestBody User user){
-        return "ユーザーでログインしました";
+    public User login(@RequestBody User user){
+        return userService.login(user.getEmail(), user.getPassword());
     }
 }
