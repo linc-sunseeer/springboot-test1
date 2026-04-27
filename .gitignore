@@ -1,1 +1,14 @@
 .worktrees/
+demo/.env
+demo/*.log
+demo/java_pid.txt
+demo/frontend/vite.err
+demo/backend.log
+demo/backend.err.log
+demo/boot.log
+boot-err.log
+boot-out.log
+logs/
+.playwright-mcp/
+PTT/temp_*/
+*.pptx
