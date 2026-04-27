@@ -1,0 +1,92 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img "Bento icon" [ref=e8]
+        - heading "弁当予約管理システム" [level=1] [ref=e9]
+      - navigation [ref=e10]:
+        - link "本日メニュー" [ref=e12] [cursor=pointer]:
+          - /url: /menus/today
+        - link "マイページ" [active] [ref=e46] [cursor=pointer]:
+          - /url: /mypage
+      - generic [ref=e13]:
+        - link [ref=e47] [cursor=pointer]:
+          - /url: /cart
+          - img [ref=e48]
+        - generic [ref=e50]:
+          - generic [ref=e52]: U
+          - generic [ref=e53]:
+            - generic [ref=e54]: USER
+            - generic [ref=e56]: テストユーザー
+          - button "ログアウト" [ref=e58]:
+            - img [ref=e59]
+  - main [ref=e15]:
+    - generic [ref=e194]:
+      - generic [ref=e196]:
+        - generic [ref=e197]:
+          - heading "マイページ" [level=2] [ref=e198]:
+            - img [ref=e200]
+            - text: マイページ
+          - paragraph [ref=e202]: 注文管理・個人情報・支払い履歴をここで一括管理。
+        - generic [ref=e203]:
+          - generic [ref=e204]:
+            - generic [ref=e205]: 進行中
+            - generic [ref=e206]: "0"
+          - generic [ref=e207]:
+            - generic [ref=e208]: 支払済み
+            - generic [ref=e210]: "0"
+      - paragraph [ref=e211]: ※ 支払い方法は注文内容に応じて表示されます。
+      - navigation [ref=e212]:
+        - button "注文一覧" [ref=e213]:
+          - generic [ref=e214]:
+            - img [ref=e215]
+            - text: 注文一覧
+        - button "個人情報" [ref=e217]:
+          - generic [ref=e218]:
+            - img [ref=e219]
+            - text: 個人情報
+        - button "飲食設定" [ref=e221]:
+          - generic [ref=e222]:
+            - img [ref=e223]
+            - text: 飲食設定
+        - button "支払い履歴" [ref=e225]:
+          - generic [ref=e226]:
+            - img [ref=e227]
+            - text: 支払い履歴
+      - generic [ref=e229]:
+        - generic [ref=e230]:
+          - article [ref=e231]:
+            - heading "進行中の注文" [level=3] [ref=e233]
+            - generic [ref=e234]:
+              - img [ref=e236]
+              - paragraph [ref=e238]: 進行中の注文はありません
+              - paragraph [ref=e239]: 現在対応が必要な注文はありません。
+              - link "本日メニューを見る" [ref=e240] [cursor=pointer]:
+                - /url: /menus/today
+                - text: 本日メニューを見る
+                - img [ref=e241]
+          - article [ref=e243]:
+            - generic [ref=e244]:
+              - heading "対応待ち一覧" [level=3] [ref=e245]
+              - generic [ref=e246]: 0 件
+            - generic [ref=e247]: 対応中の注文はありません。
+        - article [ref=e248]:
+          - heading "注文の進み方" [level=3] [ref=e249]
+          - generic [ref=e250]:
+            - generic [ref=e251]:
+              - generic [ref=e252]: "1"
+              - generic [ref=e253]:
+                - paragraph [ref=e254]: 予約済み
+                - paragraph [ref=e255]: 注文作成後の初期状態。
+            - generic [ref=e256]:
+              - generic [ref=e257]: "2"
+              - generic [ref=e258]:
+                - paragraph [ref=e259]: 確認済み
+                - paragraph [ref=e260]: 内容を確認した状態。
+            - generic [ref=e261]:
+              - generic [ref=e262]: "3"
+              - generic [ref=e263]:
+                - paragraph [ref=e264]: 支払済み
+                - paragraph [ref=e265]: 支払完了。履歴へ移動します。
+  - contentinfo [ref=e44]:
+    - generic [ref=e45]: © 2026 株式会社サンシーア All Rights Reserved. · Kenlin

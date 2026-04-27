@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-bento-orange: #ea580c;
+  --color-bento-yellow: #f97316;
+  --color-bento-orange-light: #fff7ed;
+  --color-bento-bg: #f8fafc;
+  --color-bento-bg-alt: #f1f5f9;
+  --color-bento-card: #ffffff;
+  --color-bento-text: #0f172a;
+  --color-bento-muted: #475569;
+  --color-bento-border: #e2e8f0;
+}
+
+@layer base {
+  body {
+    @apply bg-bento-bg text-bento-text antialiased min-h-screen m-0;
+    font-family: 'Plus Jakarta Sans', 'Noto Sans JP', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-sm;
+  }
+  .soft-shadow {
+    box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05), 0 0 3px rgba(15, 23, 42, 0.02);
+  }
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-md;
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@keyframes shimmer {
+  100% { transform: translateX(100%) skewX(-12deg); }
+}

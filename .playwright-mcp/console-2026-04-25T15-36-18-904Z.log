@@ -1,0 +1,1 @@
+[   42682ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:5174/api/auth/login:0

@@ -1,0 +1,191 @@
+- generic [ref=e39]:
+  - complementary [ref=e40]:
+    - generic [ref=e41]:
+      - img "Bento icon" [ref=e43]
+      - generic [ref=e44]: Admin Panel
+    - generic [ref=e45]:
+      - generic [ref=e46]: 管理メニュー
+      - link "メニュー管理" [ref=e47] [cursor=pointer]:
+        - /url: /admin/menus
+        - img [ref=e48]
+        - text: メニュー管理
+      - link "日次集計・当日予約" [ref=e50] [cursor=pointer]:
+        - /url: /admin/aggregates/daily
+        - img [ref=e51]
+        - text: 日次集計・当日予約
+      - link "月次集計" [ref=e53] [cursor=pointer]:
+        - /url: /admin/aggregates/monthly
+        - img [ref=e54]
+        - text: 月次集計
+      - link "システム設定" [ref=e56] [cursor=pointer]:
+        - /url: /admin/settings
+        - img [ref=e57]
+        - text: システム設定
+      - link "ユーザー管理" [ref=e60] [cursor=pointer]:
+        - /url: /admin/users
+        - img [ref=e61]
+        - text: ユーザー管理
+    - link "ユーザー画面へ戻る" [ref=e64] [cursor=pointer]:
+      - /url: /menus/today
+      - img [ref=e65]
+      - text: ユーザー画面へ戻る
+  - generic [ref=e67]:
+    - banner [ref=e68]:
+      - heading "メニュー管理" [level=2] [ref=e69]
+      - generic [ref=e71]:
+        - generic [ref=e73]: A
+        - generic [ref=e74]:
+          - generic [ref=e75]: ADMIN
+          - generic [ref=e77]: 管理者
+        - button "ログアウト" [ref=e79]:
+          - img [ref=e80]
+    - main [ref=e82]:
+      - generic [ref=e86]:
+        - alert [ref=e253]: 「唐揚げ弁当」を削除しました。必要な場合はメニュー管理から再登録してください。
+        - generic [ref=e87]:
+          - heading "新規メニュー追加" [level=3] [ref=e89]
+          - generic [ref=e90]:
+            - generic [ref=e92]:
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - generic [ref=e95]: メニュー名 *
+                  - 'textbox "例: ハンバーグ弁当" [ref=e96]'
+                - generic [ref=e97]:
+                  - generic [ref=e98]: 価格 (円) *
+                  - generic [ref=e99]:
+                    - generic [ref=e100]: ¥
+                    - spinbutton [ref=e101]: "0"
+                - generic [ref=e102]:
+                  - generic [ref=e103]: 提供日 *
+                  - textbox [ref=e104]
+              - generic [ref=e105]:
+                - generic [ref=e106]: 説明
+                - textbox "メニューの説明文を入力" [ref=e107]
+            - generic [ref=e109]:
+              - generic [ref=e111]: 画像アップロード
+              - generic [ref=e113] [cursor=pointer]:
+                - img [ref=e115]
+                - generic [ref=e117]: 画像を選択
+                - paragraph [ref=e118]: PNG / JPG / WEBP
+        - table [ref=e120]:
+          - rowgroup [ref=e121]:
+            - row "画像 名称 価格 提供日 操作" [ref=e122]:
+              - columnheader "画像" [ref=e123]
+              - columnheader "名称" [ref=e124]
+              - columnheader "価格" [ref=e125]
+              - columnheader "提供日" [ref=e126]
+              - columnheader "操作" [ref=e127]
+          - rowgroup [ref=e128]:
+            - row "唐揚げ弁当 唐揚げ弁当 人気メニュー ¥550 2026-04-20 編集 削除" [ref=e129]:
+              - cell "唐揚げ弁当" [ref=e130]:
+                - img "唐揚げ弁当" [ref=e132]
+              - cell "唐揚げ弁当 人気メニュー" [ref=e133]:
+                - generic [ref=e134]:
+                  - generic [ref=e135]: 唐揚げ弁当
+                  - generic [ref=e136]: 人気メニュー
+              - cell "¥550" [ref=e137]
+              - cell "2026-04-20" [ref=e138]
+              - cell "編集 削除" [ref=e139]:
+                - generic [ref=e140]:
+                  - button "編集" [ref=e141]
+                  - button "削除" [active] [ref=e142]
+            - row "test 説明なし ¥1,000 2026-04-20 編集 削除" [ref=e143]:
+              - cell [ref=e144]:
+                - img [ref=e146]
+              - cell "test 説明なし" [ref=e148]:
+                - generic [ref=e149]:
+                  - generic [ref=e150]: test
+                  - generic [ref=e151]: 説明なし
+              - cell "¥1,000" [ref=e152]
+              - cell "2026-04-20" [ref=e153]
+              - cell "編集 削除" [ref=e154]:
+                - generic [ref=e155]:
+                  - button "編集" [ref=e156]
+                  - button "削除" [ref=e157]
+            - row "test 説明なし ¥20 2026-04-20 編集 削除" [ref=e158]:
+              - cell [ref=e159]
+              - cell "test 説明なし" [ref=e161]:
+                - generic [ref=e162]:
+                  - generic [ref=e163]: test
+                  - generic [ref=e164]: 説明なし
+              - cell "¥20" [ref=e165]
+              - cell "2026-04-20" [ref=e166]
+              - cell "編集 削除" [ref=e167]:
+                - generic [ref=e168]:
+                  - button "編集" [ref=e169]
+                  - button "削除" [ref=e170]
+            - row "鮭の塩焼き弁当 手軽に選べる焼き魚メニュー ¥680 2026-04-18 編集 削除" [ref=e171]:
+              - cell [ref=e172]
+              - cell "鮭の塩焼き弁当 手軽に選べる焼き魚メニュー" [ref=e174]:
+                - generic [ref=e175]:
+                  - generic [ref=e176]: 鮭の塩焼き弁当
+                  - generic [ref=e177]: 手軽に選べる焼き魚メニュー
+              - cell "¥680" [ref=e178]
+              - cell "2026-04-18" [ref=e179]
+              - cell "編集 削除" [ref=e180]:
+                - generic [ref=e181]:
+                  - button "編集" [ref=e182]
+                  - button "削除" [ref=e183]
+            - row "鮭の塩焼き弁当 手軽に選べる焼き魚メニュー ¥680 2026-04-18 編集 削除" [ref=e184]:
+              - cell [ref=e185]
+              - cell "鮭の塩焼き弁当 手軽に選べる焼き魚メニュー" [ref=e187]:
+                - generic [ref=e188]:
+                  - generic [ref=e189]: 鮭の塩焼き弁当
+                  - generic [ref=e190]: 手軽に選べる焼き魚メニュー
+              - cell "¥680" [ref=e191]
+              - cell "2026-04-18" [ref=e192]
+              - cell "編集 削除" [ref=e193]:
+                - generic [ref=e194]:
+                  - button "編集" [ref=e195]
+                  - button "削除" [ref=e196]
+            - row "彩り野菜弁当 軽めに選べる彩りメニュー ¥620 2026-04-18 編集 削除" [ref=e197]:
+              - cell [ref=e198]
+              - cell "彩り野菜弁当 軽めに選べる彩りメニュー" [ref=e200]:
+                - generic [ref=e201]:
+                  - generic [ref=e202]: 彩り野菜弁当
+                  - generic [ref=e203]: 軽めに選べる彩りメニュー
+              - cell "¥620" [ref=e204]
+              - cell "2026-04-18" [ref=e205]
+              - cell "編集 削除" [ref=e206]:
+                - generic [ref=e207]:
+                  - button "編集" [ref=e208]
+                  - button "削除" [ref=e209]
+            - row "特製幕の内弁当 特製幕の内弁当 彩り豊かな定番の幕の内弁当。煮物、焼き魚、揚げ物などバランス良く盛り込んでいます。 ¥850 2026-04-20 編集 削除" [ref=e210]:
+              - cell "特製幕の内弁当" [ref=e211]:
+                - img "特製幕の内弁当" [ref=e213]
+              - cell "特製幕の内弁当 彩り豊かな定番の幕の内弁当。煮物、焼き魚、揚げ物などバランス良く盛り込んでいます。" [ref=e214]:
+                - generic [ref=e215]:
+                  - generic [ref=e216]: 特製幕の内弁当
+                  - generic [ref=e217]: 彩り豊かな定番の幕の内弁当。煮物、焼き魚、揚げ物などバランス良く盛り込んでいます。
+              - cell "¥850" [ref=e218]
+              - cell "2026-04-20" [ref=e219]
+              - cell "編集 削除" [ref=e220]:
+                - generic [ref=e221]:
+                  - button "編集" [ref=e222]
+                  - button "削除" [ref=e223]
+            - row "鮭の塩焼きと唐揚げ弁当 鮭の塩焼きと唐揚げ弁当 脂ののった鮭の塩焼きと、ジューシーな唐揚げのボリューム満点弁当です。 ¥600 2026-04-20 編集 削除" [ref=e224]:
+              - cell "鮭の塩焼きと唐揚げ弁当" [ref=e225]:
+                - img "鮭の塩焼きと唐揚げ弁当" [ref=e227]
+              - cell "鮭の塩焼きと唐揚げ弁当 脂ののった鮭の塩焼きと、ジューシーな唐揚げのボリューム満点弁当です。" [ref=e228]:
+                - generic [ref=e229]:
+                  - generic [ref=e230]: 鮭の塩焼きと唐揚げ弁当
+                  - generic [ref=e231]: 脂ののった鮭の塩焼きと、ジューシーな唐揚げのボリューム満点弁当です。
+              - cell "¥600" [ref=e232]
+              - cell "2026-04-20" [ref=e233]
+              - cell "編集 削除" [ref=e234]:
+                - generic [ref=e235]:
+                  - button "編集" [ref=e236]
+                  - button "削除" [ref=e237]
+            - row "黒豚ロースカツ弁当 サクサクの衣と、柔らかく旨味たっぷりの黒豚ロースカツを自家製ソースで。 ¥750 2026-04-20 編集 削除" [ref=e238]:
+              - cell [ref=e239]
+              - cell "黒豚ロースカツ弁当 サクサクの衣と、柔らかく旨味たっぷりの黒豚ロースカツを自家製ソースで。" [ref=e241]:
+                - generic [ref=e242]:
+                  - generic [ref=e243]: 黒豚ロースカツ弁当
+                  - generic [ref=e244]: サクサクの衣と、柔らかく旨味たっぷりの黒豚ロースカツを自家製ソースで。
+              - cell "¥750" [ref=e245]
+              - cell "2026-04-20" [ref=e246]
+              - cell "編集 削除" [ref=e247]:
+                - generic [ref=e248]:
+                  - button "編集" [ref=e249]
+                  - button "削除" [ref=e250]
+      - generic [ref=e251]: © 2026 株式会社サンシーア All Rights Reserved. · Kenlin

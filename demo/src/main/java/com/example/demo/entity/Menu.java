@@ -1,90 +1,74 @@
 package com.example.demo.entity;
 
-import jakarta.persistence.*;
+// 匯入 IdType，主鍵要用資料庫自動遞增時會用到
+import com.baomidou.mybatisplus.annotation.IdType;
+// 匯入 TableId，標記主鍵欄位
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
+// 匯入 TableName，指定這個類別對應 menus 這張表
+import com.baomidou.mybatisplus.annotation.TableName;
+// 匯入 Lombok，幫我們把重複的 getter / setter / constructor 簡化掉
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-import java.time.LocalDateTime; //引入 LocalDateTime 類別用於表示日期和時間
+// 匯入 BigDecimal，價格這種資料用它比 int / double 穩定很多
+import java.math.BigDecimal;
+// 匯入 LocalDate，這個只存日期，不含時間
+import java.time.LocalDate;
+// 匯入 LocalDateTime，建立時間和更新時間會用到
+import java.time.LocalDateTime;
 
-@Entity
-@Table(name = "menu") // 指定資料表名稱
+// 這個類別就是 menus 資料表對應的 Java 物件
+@Getter
+@Setter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@TableName("menus")
 public class Menu {
 
-    @Id  // 主鍵
-    @GeneratedValue(strategy = GenerationType.IDENTITY)  // 自動生成ID不用你自己手動設定，讓資料庫自動幫你產生
+    // 菜單主鍵 id
+    @TableId(type = IdType.AUTO)
     private Long id;
 
+    // 菜單名稱
     private String name;
 
-    private int price;
+    // 價格，內部管理用
+    private BigDecimal price;
 
-    private String description; //菜單詳細說明
+    // 熱量（kcal）
+    private Integer calorie;
 
-    private String imageUrl; //菜單圖片URL
+    // 過敏原（逗號分隔）
+    private String allergens;
 
-    private LocalDateTime provideDate; //提供日期
+    // 菜單說明
+    private String description;
 
+    // 圖片網址
+    // 資料庫是 image_url，Java 是 imageUrl，這種底線轉駝峰可以自動對應
+    private String imageUrl;
 
-    public Menu(){}  //JPA框架必要的無參數建構子  一定要加
+    // 當日預約人數（畫面表示用、DB 欄位なし）
+    @TableField(exist = false)
+    private Integer reservationCount;
 
+    // 提供日期
+    // DB 欄位是 available_date，Java 用 availableDate
+    private LocalDate availableDate;
 
-    public Menu(String name,int price,String description,String imageUrl,LocalDateTime provideDate){  //有參數建構子讓建立物件時可以直接傳入值
-        this.name = name;
-        this.price = price;
-        this.description = description;
-        this.imageUrl = imageUrl;
-        this.provideDate = provideDate;
-    }
+    // 是否已刪除，這邊是邏輯刪除概念
+    // DB 欄位是 is_deleted
+    @TableField("is_deleted")
+    private Boolean deleted;
 
-    //以下是getter和setter方法，讓外部可以訪問和修改私有屬性
-    //getter
+    // 建立時間
+    private LocalDateTime createdAt;
 
-    public Long getId(){  //取得 id因為欄位是 private，外部不能直接存取：
-        return id;
-    }
-
-    public String getName(){  //取得 name
-        return name;
-    }
-
-    public int getPrice(){  //取得 price
-        return price;
-    }
-
-    public String getDescription(){  //取得 description
-        return description;
-    }
-
-    public String getImageUrl(){  //取得 imageUrl
-        return imageUrl;
-    }
-
-    public LocalDateTime getProvideDate(){  //取得 provideDate
-        return provideDate;
-    }
-
-    //setter  Id不能修改所以不設
-
-    public void setName(String name){  //設定 name
-        this.name = name;
-    }
-
-    public void setPrice(int price){  //設定 price
-        this.price = price;
-    }
-
-    public void setDescription(String description){  //設定 description
-        this.description = description;
-    }
-
-
-    public void setImageUrl(String imageUrl){  //設定 imageUrl
-        this.imageUrl = imageUrl;
-    }
-
-    public void setProvideDate(LocalDateTime provideDate){  //設定 provideDate
-        this.provideDate = provideDate;
-    }
-
-
-    
-    
+    // 更新時間
+    private LocalDateTime updatedAt;
 }

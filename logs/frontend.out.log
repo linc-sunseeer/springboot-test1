@@ -1,0 +1,91 @@
+
+> frontend@0.0.0 dev
+> vite
+
+
+  [32m[1mVITE[22m v8.0.8[39m  [2mready in [0m[1m2768[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m上午11:49:16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/views/MenuDetailView.vue, /src/views/CartView.vue, /src/style.css[22m
+[2m上午11:49:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/MenuDetailView.vue, /src/style.css[22m
+[2m上午11:49:33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/CartView.vue, /src/style.css[22m
+[2m上午11:49:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/MyPageView.vue, /src/style.css[22m
+[2m上午11:51:30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/CartView.vue, /src/style.css[22m
+[2m上午11:51:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/MyPageView.vue, /src/style.css[22m
+[2m下午12:05:40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m下午12:05:52[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/style.css[22m
+[2m下午12:06:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/style.css[22m
+[2m下午12:09:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/CartView.vue, /src/style.css[22m
+[2m下午12:09:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminDailyView.vue, /src/style.css[22m
+[2m下午12:09:49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminDailyView.vue, /src/style.css[22m
+[2m下午12:09:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminDailyView.vue, /src/style.css[22m
+[2m下午12:10:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminDailyView.vue, /src/style.css[22m
+[2m下午12:47:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminMenusView.vue, /src/style.css[22m
+[2m下午12:47:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/LoginView.vue, /src/style.css[22m
+[2m下午12:48:17[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminLoginView.vue, /src/style.css[22m
+[2m下午12:48:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/RegisterView.vue, /src/style.css[22m
+[2m下午12:50:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/TodayMenusView.vue, /src/style.css[22m
+[2m下午1:21:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/MyPageView.vue, /src/style.css[22m
+[2m下午1:22:11[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/MyPageView.vue, /src/style.css[22m
+[2m下午1:22:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/TodayMenusView.vue, /src/style.css[22m
+[2m下午1:23:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m下午1:23:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/MyPageView.vue, /src/style.css[22m
+[2m下午5:14:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/style.css[22m
+[2m下午5:15:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/TodayMenusView.vue, /src/style.css[22m
+[2m下午5:15:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/style.css[22m
+[2m下午5:18:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/style.css[22m
+[2m下午5:18:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/TodayMenusView.vue, /src/style.css[22m
+[2m下午5:19:16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/MyPageView.vue, /src/style.css[22m
+[2m下午5:19:54[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/MyPageView.vue, /src/style.css[22m
+[2m下午5:20:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminMenusView.vue, /src/style.css[22m
+[2m下午5:20:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminMenusView.vue, /src/style.css[22m
+[2m下午5:21:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminMenusView.vue, /src/style.css[22m
+[2m下午5:21:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminMenusView.vue, /src/style.css[22m
+[2m下午5:21:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminMenusView.vue, /src/style.css[22m
+[2m下午5:34:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m下午5:34:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m下午5:34:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue[22m
+[2m下午5:42:10[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m下午5:42:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/LoginView.vue, /src/style.css[22m
+[2m下午5:43:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/style.css[22m
+[2m下午5:43:30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/style.css[22m
+[2m下午5:44:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminLoginView.vue, /src/style.css[22m
+[2m下午5:44:17[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/style.css[22m
+[2m下午5:45:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/RegisterView.vue, /src/style.css[22m
+[2m下午5:48:26[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/style.css[22m
+[2m下午5:48:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/style.css[22m
+[2m下午5:48:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/style.css[22m
+[2m下午5:49:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/style.css[22m
+[2m下午5:49:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/LoginView.vue, /src/style.css[22m
+[2m下午5:50:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/RegisterView.vue, /src/style.css[22m
+[2m下午5:55:42[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/style.css[22m
+[2m下午5:57:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/stores/auth.js[22m
+[2m下午5:59:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/LoginView.vue, /src/style.css[22m
+[2m下午5:59:33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/LoginView.vue, /src/style.css[22m
+[2m下午6:00:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminLoginView.vue, /src/style.css[22m
+[2m下午6:00:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminLoginView.vue, /src/style.css[22m
+[2m下午6:02:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/MyPageView.vue, /src/style.css[22m
+[2m下午6:03:35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminMenusView.vue, /src/style.css[22m
+[2m下午6:04:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminMenusView.vue, /src/style.css[22m
+[2m下午6:12:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/RegisterView.vue, /src/style.css[22m
+[2m下午6:12:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/RegisterView.vue, /src/style.css[22m
+[2m下午6:13:08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/MyPageView.vue, /src/style.css[22m
+[2m下午6:13:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/MyPageView.vue, /src/style.css[22m
+[2m下午6:22:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/stores/auth.js[22m
+[2m下午6:22:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/style.css[22m
+[2m下午6:22:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminUsersView.vue, /src/style.css[22m
+[2m下午6:22:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminMenusView.vue, /src/style.css[22m
+[2m下午6:31:40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminDailyView.vue, /src/style.css[22m
+[2m下午6:46:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css, /src/views/admin/AdminMenusView.vue, /src/views/admin/AdminMonthlyView.vue, /src/views/admin/AdminDailyView.vue, /src/views/admin/AdminSettingsView.vue, /src/views/admin/AdminUsersView.vue[22m
+[2m下午6:46:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/stores/auth.js[22m
+[2m下午6:46:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue, /src/style.css[22m
+[2m下午6:46:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminMenusView.vue, /src/style.css[22m
+[2m上午1:12:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/TodayMenusView.vue, /src/style.css[22m
+[2m上午1:13:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/MenuDetailView.vue, /src/style.css[22m
+[2m上午1:13:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/MenuDetailView.vue, /src/style.css[22m
+[2m上午1:13:49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminDailyView.vue, /src/style.css[22m
+[2m上午2:50:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css, /src/views/LoginView.vue, /src/views/ResetPasswordView.vue, /src/views/RegisterView.vue, /src/views/ForgotPasswordView.vue, /src/views/VerifyEmailView.vue, /src/views/TodayMenusView.vue, /src/views/MenuDetailView.vue, /src/views/MyPageView.vue, /src/views/CartView.vue, /src/views/admin/AdminLoginView.vue, /src/views/admin/AdminMenusView.vue, /src/views/admin/AdminMonthlyView.vue, /src/views/admin/AdminDailyView.vue, /src/views/admin/AdminSettingsView.vue and 1 more[22m
+[2m上午2:50:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css, /src/views/admin/AdminMenusView.vue, /src/views/admin/AdminMonthlyView.vue, /src/views/admin/AdminDailyView.vue, /src/views/admin/AdminSettingsView.vue, /src/views/admin/AdminUsersView.vue[22m
+[2m上午2:50:49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/admin/AdminMenusView.vue, /src/style.css[22m

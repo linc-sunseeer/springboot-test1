@@ -1,0 +1,104 @@
+- generic [ref=e39]:
+  - complementary [ref=e40]:
+    - generic [ref=e41]:
+      - img "Bento icon" [ref=e43]
+      - generic [ref=e44]: Admin Panel
+    - generic [ref=e45]:
+      - generic [ref=e46]: 管理メニュー
+      - link "メニュー管理" [ref=e47] [cursor=pointer]:
+        - /url: /admin/menus
+        - img [ref=e48]
+        - text: メニュー管理
+      - link "日次集計・当日予約" [ref=e50] [cursor=pointer]:
+        - /url: /admin/aggregates/daily
+        - img [ref=e51]
+        - text: 日次集計・当日予約
+      - link "月次集計" [ref=e53] [cursor=pointer]:
+        - /url: /admin/aggregates/monthly
+        - img [ref=e54]
+        - text: 月次集計
+      - link "システム設定" [ref=e56] [cursor=pointer]:
+        - /url: /admin/settings
+        - img [ref=e57]
+        - text: システム設定
+      - link "ユーザー管理" [ref=e60] [cursor=pointer]:
+        - /url: /admin/users
+        - img [ref=e61]
+        - text: ユーザー管理
+    - link "ユーザー画面へ戻る" [ref=e64] [cursor=pointer]:
+      - /url: /menus/today
+      - img [ref=e65]
+      - text: ユーザー画面へ戻る
+  - generic [ref=e67]:
+    - banner [ref=e68]:
+      - heading "メニュー管理" [level=2] [ref=e69]
+      - generic [ref=e71]:
+        - generic [ref=e73]: A
+        - generic [ref=e74]:
+          - generic [ref=e75]: ADMIN
+          - generic [ref=e77]: Admin
+        - button "ログアウト" [ref=e79]:
+          - img [ref=e80]
+    - main [ref=e82]:
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - heading "新規メニュー追加" [level=3] [ref=e89]
+          - generic [ref=e90]:
+            - generic [ref=e92]:
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - generic [ref=e95]: メニュー名 *
+                  - 'textbox "例: ハンバーグ弁当" [ref=e96]'
+                - generic [ref=e97]:
+                  - generic [ref=e98]: 価格 (円) *
+                  - generic [ref=e99]:
+                    - generic [ref=e100]: ¥
+                    - spinbutton [ref=e101]: "0"
+                - generic [ref=e102]:
+                  - generic [ref=e103]: 提供日 *
+                  - textbox [ref=e104]
+              - generic [ref=e105]:
+                - generic [ref=e106]: 説明
+                - textbox "メニューの説明文を入力" [ref=e107]
+            - generic [ref=e109]:
+              - generic [ref=e111]: 画像アップロード
+              - generic [ref=e113] [cursor=pointer]:
+                - img [ref=e115]
+                - generic [ref=e117]: 画像を選択
+                - paragraph [ref=e118]: PNG / JPG / WEBP
+          - button "追加して保存" [ref=e120]
+        - table [ref=e122]:
+          - rowgroup [ref=e123]:
+            - row "画像 名称 価格 提供日 操作" [ref=e124]:
+              - columnheader "画像" [ref=e125]
+              - columnheader "名称" [ref=e126]
+              - columnheader "価格" [ref=e127]
+              - columnheader "提供日" [ref=e128]
+              - columnheader "操作" [ref=e129]
+          - rowgroup [ref=e130]:
+            - row "鮭の塩焼きと唐揚げ弁当 鮭の塩焼きと唐揚げ弁当 脂ののった鮭の塩焼きと、ジューシーな唐揚げのボリューム満点弁当です。 ¥600 2026-04-23 編集 削除" [ref=e131]:
+              - cell "鮭の塩焼きと唐揚げ弁当" [ref=e132]:
+                - img "鮭の塩焼きと唐揚げ弁当" [ref=e134]
+              - cell "鮭の塩焼きと唐揚げ弁当 脂ののった鮭の塩焼きと、ジューシーな唐揚げのボリューム満点弁当です。" [ref=e135]:
+                - generic [ref=e136]:
+                  - generic [ref=e137]: 鮭の塩焼きと唐揚げ弁当
+                  - generic [ref=e138]: 脂ののった鮭の塩焼きと、ジューシーな唐揚げのボリューム満点弁当です。
+              - cell "¥600" [ref=e139]
+              - cell "2026-04-23" [ref=e140]
+              - cell "編集 削除" [ref=e141]:
+                - generic [ref=e142]:
+                  - button "編集" [ref=e143]
+                  - button "削除" [ref=e144]
+            - row "黒豚ロースカツ弁当 サクサクの衣と、柔らかく旨味たっぷりの黒豚ロースカツを自家製ソースで。 ¥750 2026-04-21 編集 削除" [ref=e145]:
+              - cell [ref=e146]
+              - cell "黒豚ロースカツ弁当 サクサクの衣と、柔らかく旨味たっぷりの黒豚ロースカツを自家製ソースで。" [ref=e148]:
+                - generic [ref=e149]:
+                  - generic [ref=e150]: 黒豚ロースカツ弁当
+                  - generic [ref=e151]: サクサクの衣と、柔らかく旨味たっぷりの黒豚ロースカツを自家製ソースで。
+              - cell "¥750" [ref=e152]
+              - cell "2026-04-21" [ref=e153]
+              - cell "編集 削除" [ref=e154]:
+                - generic [ref=e155]:
+                  - button "編集" [ref=e156]
+                  - button "削除" [ref=e157]
+      - generic [ref=e158]: © 2026 株式会社サンシーア All Rights Reserved. · Kenlin

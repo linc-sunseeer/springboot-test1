@@ -1,0 +1,228 @@
+- generic [ref=e39]:
+  - complementary [ref=e40]:
+    - generic [ref=e41]:
+      - img "Bento icon" [ref=e43]
+      - generic [ref=e44]: Admin Panel
+    - generic [ref=e45]:
+      - generic [ref=e46]: 管理メニュー
+      - link "メニュー管理" [ref=e47] [cursor=pointer]:
+        - /url: /admin/menus
+        - img [ref=e48]
+        - text: メニュー管理
+      - link "日次集計・当日予約" [ref=e50] [cursor=pointer]:
+        - /url: /admin/aggregates/daily
+        - img [ref=e51]
+        - text: 日次集計・当日予約
+      - link "月次集計" [ref=e53] [cursor=pointer]:
+        - /url: /admin/aggregates/monthly
+        - img [ref=e54]
+        - text: 月次集計
+      - link "システム設定" [ref=e56] [cursor=pointer]:
+        - /url: /admin/settings
+        - img [ref=e57]
+        - text: システム設定
+      - link "ユーザー管理" [ref=e60] [cursor=pointer]:
+        - /url: /admin/users
+        - img [ref=e61]
+        - text: ユーザー管理
+    - link "ユーザー画面へ戻る" [ref=e64] [cursor=pointer]:
+      - /url: /menus/today
+      - img [ref=e65]
+      - text: ユーザー画面へ戻る
+  - generic [ref=e67]:
+    - banner [ref=e68]:
+      - heading "メニュー管理" [level=2] [ref=e69]
+      - generic [ref=e71]:
+        - generic [ref=e73]: A
+        - generic [ref=e74]:
+          - generic [ref=e75]: ADMIN
+          - generic [ref=e77]: Admin
+        - button "ログアウト" [ref=e79]:
+          - img [ref=e80]
+    - main [ref=e82]:
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - heading "新規メニュー追加" [level=3] [ref=e89]
+          - generic [ref=e90]:
+            - generic [ref=e92]:
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - generic [ref=e95]: メニュー名 *
+                  - 'textbox "例: ハンバーグ弁当" [ref=e96]'
+                - generic [ref=e97]:
+                  - generic [ref=e98]: 価格 (円) *
+                  - generic [ref=e99]:
+                    - generic [ref=e100]: ¥
+                    - spinbutton [ref=e101]: "0"
+                - generic [ref=e102]:
+                  - generic [ref=e103]: 熱量 (kcal)
+                  - spinbutton [ref=e104]
+                - generic [ref=e105]:
+                  - generic [ref=e106]: 提供日 *
+                  - textbox [ref=e107]
+              - generic [ref=e108]:
+                - generic [ref=e109]: 説明
+                - textbox "メニューの説明文を入力" [ref=e110]
+              - generic [ref=e111]:
+                - generic [ref=e112]: 含有するアレルゲン
+                - generic [ref=e113]:
+                  - generic [ref=e114] [cursor=pointer]:
+                    - checkbox "えび" [ref=e115]
+                    - generic [ref=e116]: えび
+                  - generic [ref=e117] [cursor=pointer]:
+                    - checkbox "かに" [ref=e118]
+                    - generic [ref=e119]: かに
+                  - generic [ref=e120] [cursor=pointer]:
+                    - checkbox "小麦" [ref=e121]
+                    - generic [ref=e122]: 小麦
+                  - generic [ref=e123] [cursor=pointer]:
+                    - checkbox "そば" [ref=e124]
+                    - generic [ref=e125]: そば
+                  - generic [ref=e126] [cursor=pointer]:
+                    - checkbox "卵" [ref=e127]
+                    - generic [ref=e128]: 卵
+                  - generic [ref=e129] [cursor=pointer]:
+                    - checkbox "乳" [ref=e130]
+                    - generic [ref=e131]: 乳
+                  - generic [ref=e132] [cursor=pointer]:
+                    - checkbox "落花生" [ref=e133]
+                    - generic [ref=e134]: 落花生
+                  - generic [ref=e135] [cursor=pointer]:
+                    - checkbox "くるみ" [ref=e136]
+                    - generic [ref=e137]: くるみ
+                  - generic [ref=e138] [cursor=pointer]:
+                    - checkbox "あわび" [ref=e139]
+                    - generic [ref=e140]: あわび
+                  - generic [ref=e141] [cursor=pointer]:
+                    - checkbox "いか" [ref=e142]
+                    - generic [ref=e143]: いか
+                  - generic [ref=e144] [cursor=pointer]:
+                    - checkbox "いくら" [ref=e145]
+                    - generic [ref=e146]: いくら
+                  - generic [ref=e147] [cursor=pointer]:
+                    - checkbox "オレンジ" [ref=e148]
+                    - generic [ref=e149]: オレンジ
+                  - generic [ref=e150] [cursor=pointer]:
+                    - checkbox "カシューナッツ" [ref=e151]
+                    - generic [ref=e152]: カシューナッツ
+                  - generic [ref=e153] [cursor=pointer]:
+                    - checkbox "キウイ" [ref=e154]
+                    - generic [ref=e155]: キウイ
+                  - generic [ref=e156] [cursor=pointer]:
+                    - checkbox "牛肉" [ref=e157]
+                    - generic [ref=e158]: 牛肉
+                  - generic [ref=e159] [cursor=pointer]:
+                    - checkbox "鶏肉" [ref=e160]
+                    - generic [ref=e161]: 鶏肉
+                  - generic [ref=e162] [cursor=pointer]:
+                    - checkbox "豚肉" [ref=e163]
+                    - generic [ref=e164]: 豚肉
+                  - generic [ref=e165] [cursor=pointer]:
+                    - checkbox "まつたけ" [ref=e166]
+                    - generic [ref=e167]: まつたけ
+                  - generic [ref=e168] [cursor=pointer]:
+                    - checkbox "もも" [ref=e169]
+                    - generic [ref=e170]: もも
+                  - generic [ref=e171] [cursor=pointer]:
+                    - checkbox "やまいも" [ref=e172]
+                    - generic [ref=e173]: やまいも
+                  - generic [ref=e174] [cursor=pointer]:
+                    - checkbox "りんご" [ref=e175]
+                    - generic [ref=e176]: りんご
+                  - generic [ref=e177] [cursor=pointer]:
+                    - checkbox "ゼラチン" [ref=e178]
+                    - generic [ref=e179]: ゼラチン
+            - generic [ref=e181]:
+              - generic [ref=e183]: 画像アップロード
+              - generic [ref=e185] [cursor=pointer]:
+                - img [ref=e187]
+                - generic [ref=e189]: 画像を選択
+                - paragraph [ref=e190]: PNG / JPG / WEBP
+          - button "追加して保存" [ref=e192]
+        - table [ref=e194]:
+          - rowgroup [ref=e195]:
+            - row "画像 名称 価格 熱量 アレルゲン 提供日 操作" [ref=e196]:
+              - columnheader "画像" [ref=e197]
+              - columnheader "名称" [ref=e198]
+              - columnheader "価格" [ref=e199]
+              - columnheader "熱量" [ref=e200]
+              - columnheader "アレルゲン" [ref=e201]
+              - columnheader "提供日" [ref=e202]
+              - columnheader "操作" [ref=e203]
+          - rowgroup [ref=e204]:
+            - row "豆腐ハンバーグ和風おろしソース 豆腐ハンバーグ和風おろしソース 鶏肉とナスのトマト煮。野菜コロッケ、小松菜煮びたし、胡麻キクラゲ佃煮、お漬物、千切キャベツ付き。 ¥690 — — 2026-04-25 編集 削除" [ref=e205]:
+              - cell "豆腐ハンバーグ和風おろしソース" [ref=e206]:
+                - img "豆腐ハンバーグ和風おろしソース" [ref=e208]
+              - cell "豆腐ハンバーグ和風おろしソース 鶏肉とナスのトマト煮。野菜コロッケ、小松菜煮びたし、胡麻キクラゲ佃煮、お漬物、千切キャベツ付き。" [ref=e209]:
+                - generic [ref=e210]:
+                  - generic [ref=e211]: 豆腐ハンバーグ和風おろしソース
+                  - generic [ref=e212]: 鶏肉とナスのトマト煮。野菜コロッケ、小松菜煮びたし、胡麻キクラゲ佃煮、お漬物、千切キャベツ付き。
+              - cell "¥690" [ref=e213]
+              - cell "—" [ref=e214]
+              - cell "—" [ref=e215]
+              - cell "2026-04-25" [ref=e216]
+              - cell "編集 削除" [ref=e217]:
+                - generic [ref=e218]:
+                  - button "編集" [ref=e219]
+                  - button "削除" [ref=e220]
+            - row "大人気！ハンバーグトマトソース 大人気！ハンバーグトマトソース オニオンリング＆ハッシュポテト添え。野菜と玉子の炒め物、ポテトサラダ、スパゲティ、鮭フレーク、お漬物付き。 ¥650 — — 2026-04-20 編集 削除" [ref=e221]:
+              - cell "大人気！ハンバーグトマトソース" [ref=e222]:
+                - img "大人気！ハンバーグトマトソース" [ref=e224]
+              - cell "大人気！ハンバーグトマトソース オニオンリング＆ハッシュポテト添え。野菜と玉子の炒め物、ポテトサラダ、スパゲティ、鮭フレーク、お漬物付き。" [ref=e225]:
+                - generic [ref=e226]:
+                  - generic [ref=e227]: 大人気！ハンバーグトマトソース
+                  - generic [ref=e228]: オニオンリング＆ハッシュポテト添え。野菜と玉子の炒め物、ポテトサラダ、スパゲティ、鮭フレーク、お漬物付き。
+              - cell "¥650" [ref=e229]
+              - cell "—" [ref=e230]
+              - cell "—" [ref=e231]
+              - cell "2026-04-20" [ref=e232]
+              - cell "編集 削除" [ref=e233]:
+                - generic [ref=e234]:
+                  - button "編集" [ref=e235]
+                  - button "削除" [ref=e236]
+            - row "ブラックカレーコロッケ ブラックカレーコロッケ ウインナーと大根のポトフ風。さば塩焼、ぜんまい田舎煮、かぼちゃサラダ、お漬物、千切キャベツ付き。 ¥680 — — 2026-04-21 編集 削除" [ref=e237]:
+              - cell "ブラックカレーコロッケ" [ref=e238]:
+                - img "ブラックカレーコロッケ" [ref=e240]
+              - cell "ブラックカレーコロッケ ウインナーと大根のポトフ風。さば塩焼、ぜんまい田舎煮、かぼちゃサラダ、お漬物、千切キャベツ付き。" [ref=e241]:
+                - generic [ref=e242]:
+                  - generic [ref=e243]: ブラックカレーコロッケ
+                  - generic [ref=e244]: ウインナーと大根のポトフ風。さば塩焼、ぜんまい田舎煮、かぼちゃサラダ、お漬物、千切キャベツ付き。
+              - cell "¥680" [ref=e245]
+              - cell "—" [ref=e246]
+              - cell "—" [ref=e247]
+              - cell "2026-04-21" [ref=e248]
+              - cell "編集 削除" [ref=e249]:
+                - generic [ref=e250]:
+                  - button "編集" [ref=e251]
+                  - button "削除" [ref=e252]
+            - row "豚ロースの特製チャーシューだれ 豚ロースの特製チャーシューだれ ごはんがすすむ麻婆豆腐。アジ大葉フライ、切干大根サラダ、おさつの胡麻マヨ、お漬物、千切キャベツ付き。 ¥720 — — 2026-04-22 編集 削除" [ref=e253]:
+              - cell "豚ロースの特製チャーシューだれ" [ref=e254]:
+                - img "豚ロースの特製チャーシューだれ" [ref=e256]
+              - cell "豚ロースの特製チャーシューだれ ごはんがすすむ麻婆豆腐。アジ大葉フライ、切干大根サラダ、おさつの胡麻マヨ、お漬物、千切キャベツ付き。" [ref=e257]:
+                - generic [ref=e258]:
+                  - generic [ref=e259]: 豚ロースの特製チャーシューだれ
+                  - generic [ref=e260]: ごはんがすすむ麻婆豆腐。アジ大葉フライ、切干大根サラダ、おさつの胡麻マヨ、お漬物、千切キャベツ付き。
+              - cell "¥720" [ref=e261]
+              - cell "—" [ref=e262]
+              - cell "—" [ref=e263]
+              - cell "2026-04-22" [ref=e264]
+              - cell "編集 削除" [ref=e265]:
+                - generic [ref=e266]:
+                  - button "編集" [ref=e267]
+                  - button "削除" [ref=e268]
+            - row "豆腐ハンバーグ和風おろしソース 豆腐ハンバーグ和風おろしソース 鶏肉とナスのトマト煮。野菜コロッケ、小松菜煮びたし、胡麻キクラゲ佃煮、お漬物、千切キャベツ付き。 ¥690 — — 2026-04-24 編集 削除" [ref=e269]:
+              - cell "豆腐ハンバーグ和風おろしソース" [ref=e270]:
+                - img "豆腐ハンバーグ和風おろしソース" [ref=e272]
+              - cell "豆腐ハンバーグ和風おろしソース 鶏肉とナスのトマト煮。野菜コロッケ、小松菜煮びたし、胡麻キクラゲ佃煮、お漬物、千切キャベツ付き。" [ref=e273]:
+                - generic [ref=e274]:
+                  - generic [ref=e275]: 豆腐ハンバーグ和風おろしソース
+                  - generic [ref=e276]: 鶏肉とナスのトマト煮。野菜コロッケ、小松菜煮びたし、胡麻キクラゲ佃煮、お漬物、千切キャベツ付き。
+              - cell "¥690" [ref=e277]
+              - cell "—" [ref=e278]
+              - cell "—" [ref=e279]
+              - cell "2026-04-24" [ref=e280]
+              - cell "編集 削除" [ref=e281]:
+                - generic [ref=e282]:
+                  - button "編集" [ref=e283]
+                  - button "削除" [ref=e284]
+      - generic [ref=e285]: © 2026 株式会社サンシーア All Rights Reserved. · Kenlin

@@ -1,0 +1,146 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img "Bento icon" [ref=e8]
+        - heading "弁当予約管理システム" [level=1] [ref=e9]
+      - navigation [ref=e10]:
+        - link "本日メニュー" [ref=e12] [cursor=pointer]:
+          - /url: /menus/today
+        - link "マイページ" [ref=e46] [cursor=pointer]:
+          - /url: /mypage
+      - generic [ref=e13]:
+        - link [ref=e47] [cursor=pointer]:
+          - /url: /cart
+          - img [ref=e48]
+        - generic [ref=e50]:
+          - generic [ref=e52]: U
+          - generic [ref=e53]:
+            - generic [ref=e54]: USER
+            - generic [ref=e56]: テストユーザー
+          - button "ログアウト" [ref=e58]:
+            - img [ref=e59]
+  - main [ref=e15]:
+    - generic [ref=e194]:
+      - generic [ref=e196]:
+        - generic [ref=e197]:
+          - heading "マイページ" [level=2] [ref=e198]:
+            - img [ref=e200]
+            - text: マイページ
+          - paragraph [ref=e202]: 注文管理・個人情報・支払い履歴をここで一括管理。
+        - generic [ref=e203]:
+          - generic [ref=e204]:
+            - generic [ref=e205]: 進行中
+            - generic [ref=e206]: "0"
+          - generic [ref=e207]:
+            - generic [ref=e208]: 支払済み
+            - generic [ref=e210]: "0"
+      - paragraph [ref=e211]: ※ 支払い方法は注文内容に応じて表示されます。
+      - navigation [ref=e212]:
+        - button "注文一覧" [ref=e213]:
+          - generic [ref=e214]:
+            - img [ref=e215]
+            - text: 注文一覧
+        - button "個人情報" [ref=e217]:
+          - generic [ref=e218]:
+            - img [ref=e219]
+            - text: 個人情報
+        - button "飲食設定" [active] [ref=e221]:
+          - generic [ref=e222]:
+            - img [ref=e223]
+            - text: 飲食設定
+        - button "支払い履歴" [ref=e225]:
+          - generic [ref=e226]:
+            - img [ref=e227]
+            - text: 支払い履歴
+      - generic [ref=e266]:
+        - article [ref=e267]:
+          - img [ref=e269]
+          - heading "飲食設定" [level=3] [ref=e271]
+          - paragraph [ref=e272]: 熱量目標とアレルゲンを設定すると、メニューに自動で注意喚起が表示されます。
+          - generic [ref=e275]: まだ設定されていません
+        - generic [ref=e277]:
+          - generic [ref=e279]:
+            - img [ref=e281]
+            - generic [ref=e283]:
+              - heading "目標熱量" [level=3] [ref=e284]
+              - paragraph [ref=e285]: 1日の目標摂取カロリーを設定します（任意）
+          - generic [ref=e286]:
+            - spinbutton [ref=e287]
+            - generic [ref=e288]: kcal
+          - generic [ref=e289]:
+            - generic [ref=e290]:
+              - img [ref=e292]
+              - generic [ref=e294]:
+                - heading "アレルゲン設定" [level=3] [ref=e295]
+                - paragraph [ref=e296]: 避けるべきアレルゲンを選択します
+            - generic [ref=e297]:
+              - generic [ref=e298] [cursor=pointer]:
+                - checkbox "えび" [ref=e299]
+                - generic [ref=e300]: えび
+              - generic [ref=e301] [cursor=pointer]:
+                - checkbox "かに" [ref=e302]
+                - generic [ref=e303]: かに
+              - generic [ref=e304] [cursor=pointer]:
+                - checkbox "小麦" [ref=e305]
+                - generic [ref=e306]: 小麦
+              - generic [ref=e307] [cursor=pointer]:
+                - checkbox "そば" [ref=e308]
+                - generic [ref=e309]: そば
+              - generic [ref=e310] [cursor=pointer]:
+                - checkbox "卵" [ref=e311]
+                - generic [ref=e312]: 卵
+              - generic [ref=e313] [cursor=pointer]:
+                - checkbox "乳" [ref=e314]
+                - generic [ref=e315]: 乳
+              - generic [ref=e316] [cursor=pointer]:
+                - checkbox "落花生" [ref=e317]
+                - generic [ref=e318]: 落花生
+              - generic [ref=e319] [cursor=pointer]:
+                - checkbox "くるみ" [ref=e320]
+                - generic [ref=e321]: くるみ
+              - generic [ref=e322] [cursor=pointer]:
+                - checkbox "あわび" [ref=e323]
+                - generic [ref=e324]: あわび
+              - generic [ref=e325] [cursor=pointer]:
+                - checkbox "いか" [ref=e326]
+                - generic [ref=e327]: いか
+              - generic [ref=e328] [cursor=pointer]:
+                - checkbox "いくら" [ref=e329]
+                - generic [ref=e330]: いくら
+              - generic [ref=e331] [cursor=pointer]:
+                - checkbox "オレンジ" [ref=e332]
+                - generic [ref=e333]: オレンジ
+              - generic [ref=e334] [cursor=pointer]:
+                - checkbox "カシューナッツ" [ref=e335]
+                - generic [ref=e336]: カシューナッツ
+              - generic [ref=e337] [cursor=pointer]:
+                - checkbox "キウイ" [ref=e338]
+                - generic [ref=e339]: キウイ
+              - generic [ref=e340] [cursor=pointer]:
+                - checkbox "牛肉" [ref=e341]
+                - generic [ref=e342]: 牛肉
+              - generic [ref=e343] [cursor=pointer]:
+                - checkbox "鶏肉" [ref=e344]
+                - generic [ref=e345]: 鶏肉
+              - generic [ref=e346] [cursor=pointer]:
+                - checkbox "豚肉" [ref=e347]
+                - generic [ref=e348]: 豚肉
+              - generic [ref=e349] [cursor=pointer]:
+                - checkbox "まつたけ" [ref=e350]
+                - generic [ref=e351]: まつたけ
+              - generic [ref=e352] [cursor=pointer]:
+                - checkbox "もも" [ref=e353]
+                - generic [ref=e354]: もも
+              - generic [ref=e355] [cursor=pointer]:
+                - checkbox "やまいも" [ref=e356]
+                - generic [ref=e357]: やまいも
+              - generic [ref=e358] [cursor=pointer]:
+                - checkbox "りんご" [ref=e359]
+                - generic [ref=e360]: りんご
+              - generic [ref=e361] [cursor=pointer]:
+                - checkbox "ゼラチン" [ref=e362]
+                - generic [ref=e363]: ゼラチン
+          - button "設定を保存" [ref=e365]
+  - contentinfo [ref=e44]:
+    - generic [ref=e45]: © 2026 株式会社サンシーア All Rights Reserved. · Kenlin

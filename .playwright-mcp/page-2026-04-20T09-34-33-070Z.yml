@@ -1,0 +1,112 @@
+- generic [ref=e39]:
+  - complementary [ref=e40]:
+    - generic [ref=e41]:
+      - img "Bento icon" [ref=e43]
+      - generic [ref=e44]: Admin Panel
+    - generic [ref=e45]:
+      - generic [ref=e46]: 管理メニュー
+      - link "メニュー管理" [ref=e47] [cursor=pointer]:
+        - /url: /admin/menus
+        - img [ref=e48]
+        - text: メニュー管理
+      - link "日次集計・当日予約" [ref=e50] [cursor=pointer]:
+        - /url: /admin/aggregates/daily
+        - img [ref=e51]
+        - text: 日次集計・当日予約
+      - link "月次集計" [ref=e53] [cursor=pointer]:
+        - /url: /admin/aggregates/monthly
+        - img [ref=e54]
+        - text: 月次集計
+      - link "システム設定" [ref=e56] [cursor=pointer]:
+        - /url: /admin/settings
+        - img [ref=e57]
+        - text: システム設定
+      - link "ユーザー管理" [ref=e60] [cursor=pointer]:
+        - /url: /admin/users
+        - img [ref=e61]
+        - text: ユーザー管理
+    - link "ユーザー画面へ戻る" [ref=e64] [cursor=pointer]:
+      - /url: /menus/today
+      - img [ref=e65]
+      - text: ユーザー画面へ戻る
+  - generic [ref=e67]:
+    - banner [ref=e68]:
+      - heading "日次集計・当日予約" [level=2] [ref=e252]
+      - generic [ref=e71]:
+        - generic [ref=e73]: A
+        - generic [ref=e74]:
+          - generic [ref=e75]: ADMIN
+          - generic [ref=e77]: 管理者
+        - button "ログアウト" [ref=e79]:
+          - img [ref=e80]
+    - main [ref=e82]:
+      - generic [ref=e254]:
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - heading "日次集計・当日予約" [level=3] [ref=e257]
+            - paragraph [ref=e258]: 現場対応に必要な数値、メニュー配分、未払いフォロー対象
+          - generic [ref=e259]:
+            - generic [ref=e260]: 対象日
+            - textbox [ref=e261]: 2026-04-20
+            - button "集計取得" [ref=e262]
+            - button "CSV 出力" [active] [ref=e263]
+        - generic [ref=e338]: CSV を出力しました。
+        - generic [ref=e264]:
+          - generic [ref=e265]:
+            - generic [ref=e266]:
+              - paragraph [ref=e267]: 総予約数
+              - paragraph [ref=e268]: "2"
+            - generic [ref=e269]:
+              - paragraph [ref=e270]: 支払済み
+              - paragraph [ref=e271]: "2"
+            - generic [ref=e272]:
+              - paragraph [ref=e273]: 未払い (フォロー)
+              - paragraph [ref=e274]: "0"
+            - generic [ref=e275]:
+              - paragraph [ref=e276]: メニュー種別
+              - paragraph [ref=e277]: "2"
+          - generic [ref=e278]:
+            - generic [ref=e279]:
+              - generic [ref=e280]:
+                - heading "メニュー別構成" [level=4] [ref=e281]
+                - generic [ref=e282]: 2026-04-20
+              - generic [ref=e283]:
+                - generic [ref=e285]:
+                  - generic [ref=e286]:
+                    - paragraph [ref=e287]: 唐揚げ弁当
+                    - paragraph [ref=e288]: "#1"
+                  - paragraph [ref=e290]: "1"
+                - generic [ref=e294]:
+                  - generic [ref=e295]:
+                    - paragraph [ref=e296]: 特製幕の内弁当
+                    - paragraph [ref=e297]: "#7"
+                  - paragraph [ref=e299]: "1"
+            - generic [ref=e302]:
+              - generic [ref=e303]:
+                - generic [ref=e304]:
+                  - heading "予約ユーザー一覧" [level=4] [ref=e305]
+                  - generic [ref=e306]:
+                    - generic [ref=e309]: 未払い 0
+                    - generic [ref=e312]: 確認待 0
+                - generic [ref=e313]:
+                  - button "すべて" [ref=e314]
+                  - button "未払い" [ref=e315]
+                  - button "確認待" [ref=e316]
+              - generic [ref=e317]:
+                - generic [ref=e318]: ユーザー / メニュー
+                - generic [ref=e319]: 状態
+                - generic [ref=e320]: 支払
+              - generic [ref=e321]:
+                - generic [ref=e322]:
+                  - generic [ref=e323]:
+                    - paragraph [ref=e324]: ken
+                    - paragraph [ref=e325]: 唐揚げ弁当 | 数量 1
+                  - generic [ref=e327]: 確認済み
+                  - generic [ref=e329]: 支払済み
+                - generic [ref=e330]:
+                  - generic [ref=e331]:
+                    - paragraph [ref=e332]: ken
+                    - paragraph [ref=e333]: 特製幕の内弁当 | 数量 1
+                  - generic [ref=e335]: 確認済み
+                  - generic [ref=e337]: 支払済み
+      - generic [ref=e251]: © 2026 株式会社サンシーア All Rights Reserved. · Kenlin
